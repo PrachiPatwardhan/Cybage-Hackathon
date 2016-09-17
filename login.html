@@ -1,0 +1,32 @@
+<DOCTYPE! HTML>
+<html>
+<head>
+<link rel = "stylesheet" href = "login.css" type = "text/css">
+<title>Criminal Database</title>
+</head>
+
+<body onLoad="resetForm(this);" >
+	<div id="content">
+		<div align = 'center'>
+  	<p align='center' float = 'center'><color='black' ><h1>Instant Criminal Recognition Database</h1></p></div>
+	<div align='center' class='black'>
+	
+	<br><br><br><br><br><br>
+		<div id="section1">
+		<form id="f1" onsubmit="return passwordMatch();" method = "post">
+		<fieldset  color='black' padding = '15px'  margin-top = '300px'>
+			<legend align='center'>LOGIN</legend><br>
+			<p align = 'center' font-size='40px'>User name:<br><input type="text" style="color:black;" name="loginUsername" id="loginUsername"><br>
+			Password:<br><input type="password" style="color:black;" name="loginPassword" id="loginPassword"><br><br>
+			</p><input type="submit" class='black' value="Submit" align = 'center'>
+		</fieldset>
+		</form> 
+		</div>	
+	</div>
+
+	<p align = 'center' font-size = '40px'> Guest Access </p>			
+	<!--	<script src = "test.js"></script>
+	-->	
+	</div>
+</body>
+</html>		
